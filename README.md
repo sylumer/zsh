@@ -1,2 +1,2 @@
 # zsh
-zsh scripts and functions
+zsh scripts and functions, etc.
