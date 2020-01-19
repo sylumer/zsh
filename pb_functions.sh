@@ -95,6 +95,18 @@ function pb_examples
 	pbpaste
 	echo
 
+	echo ---
+	
+	# Feed from command
+	echo \> Put \"foo\" on pasteboard
+	echo "foo" | pbcopy
+	pbpaste
+	echo
+	
+	echo \> Feed \"bar\" to append to pasteboard
+	pbappend $(echo "bar")
+	pbpaste
+
 }
 
 pb_examples
