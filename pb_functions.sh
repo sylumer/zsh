@@ -67,7 +67,7 @@ function pb_examples
 	pbpaste
 	echo
 
-	echo \> Append \"qux\" to pasteboard prceded by a space
+	echo \> Append \"qux\" to pasteboard preceded by a space
 	pbspappend "qux"
 	pbpaste
 	echo
